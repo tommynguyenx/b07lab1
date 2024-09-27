@@ -70,7 +70,7 @@ public class Polynomial {
 		return polyHash;
 	}
 	
-	public Polynomial convertHashToPoly(HashMap<Integer, Double> xHash) {
+	public static Polynomial convertHashToPoly(HashMap<Integer, Double> xHash) {
 		ArrayList<Double> x_coef_arrl = new ArrayList<Double>(0);
 		ArrayList<Integer> x_exp_arrl = new ArrayList<Integer>(0);
 		
